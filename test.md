@@ -1,7 +1,6 @@
 # 大标题
 ## 二级标题
 >这是引用
-<div style="color:red">dddddd</div>
 
 1. 有序列表dfsd
 
@@ -13,7 +12,7 @@
 
 姓名|技能|排行
 --|:--:|--:
-刘备|哭|大哥
+刘备|测试测试测试测试|大哥
 关羽|打|二哥
 张飞|骂|三弟
 
@@ -22,48 +21,4 @@ function test() {
   const num = 10
   console.log(num)
 }
-
 ```
-<style>
-table {
-    width: 100%; /*表格宽度*/
-    max-width: 65em; /*表格最大宽度，避免表格过宽*/
-    border: 1px solid #dedede; /*表格外边框设置*/
-    margin: 15px auto; /*外边距*/
-    border-collapse: collapse; /*使用单一线条的边框*/
-    empty-cells: show; /*单元格无内容依旧绘制边框*/
-}
-table tbody tr:nth-child(2n) {
-    background: rgba(158,188,226,0.12); 
-}
-table tr:hover {
-    background: #efefef; 
-}
-
-
-table {
-    width: 100%; /*表格宽度*/
-    max-width: 65em; /*表格最大宽度，避免表格过宽*/
-    border: 1px solid #dedede; /*表格外边框设置*/
-    margin: 15px auto; /*外边距*/
-    border-collapse: collapse; /*使用单一线条的边框*/
-    empty-cells: show; /*单元格无内容依旧绘制边框*/
-}
-table th,
-table td {
-  height: 35px; /*统一每一行的默认高度*/
-  border: 1px solid #dedede; /*内部边框样式*/
-  padding: 0 10px; /*内边距*/
-}
-table th {
-    font-weight: bold; /*加粗*/
-    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(158,188,226,0.2); /*背景色*/
-}
-table tbody tr:nth-child(2n) {
-    background: rgba(158,188,226,0.12); 
-}
-table tr:hover {
-    background: #efefef; 
-}
-</style>
